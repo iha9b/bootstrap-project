@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Cairo", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* start css to the nav */
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+nav .collapse li{
+    font-size: 18px;
+    margin: 10px 15px;
+    text-transform: capitalize;
+}
+nav .collapse li:hover a{
+    color: #551491;
+    transition: .1s ease-in;
+    -webkit-transition: .1s ease-in;
+    -moz-transition: .1s ease-in;
+    -ms-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+}
+nav .register button , 
+.modal form button{
+    background-color: #551491;
+    border: 1px solid #551491;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+nav .navbar-toggler{
+    background-color: #551491;
+    border: 1px solid #551491;
+    outline: none;
+    box-shadow: none;
+}
+nav .navbar-toggler i{
+    color: #fff;
+    font-size: 26px;
+}
+/* start css to the modal */
+.modal h1{
+    color: #551491;
+}
+.modal form label{
+    display: block;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.modal form input{
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #212121;
+    text-transform: capitalize;
+    margin: 10px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+/* start css to the carousel */
+.carousel img{
+    height: 600px;
+    max-height: 600px;
+}
+/* start css to the scroll */
+.scroll{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #551491;
+    border: 1px solid #551491;
+    color: #fff;
+    font-size: 22px;
+    position: fixed;
+    bottom: 5%;
+    right: -100%;
+    z-index: 99;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 50px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+.scroll.show{
+    right: 3%;
+}
+/* start css to the gallery section */
+.gallery{
+    background-color: #eeeeee;
+    padding: 50px 0px;
+}
+.gallery .title{
+    text-align: center;
+    margin: 35px 0px;
+    padding: 15px 0px;
+}
+.gallery h2{
+    color: #212121;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin: 10px 0px;
+}
+.gallery .title span{
+    color: #551491;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.gallery .box{
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: 25px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.gallery .box .img-box {
+    overflow: hidden;
+}
+.gallery .box .img-box img{
+     transition: .6s ease-in-out;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+    width: 100%;
+}
+.gallery .box .box-text{
+    padding: 10px 0px;
+}
+.gallery .box .box-text .text-header , 
+.gallery .box .box-text .text-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 3px;
+}
+.gallery .box .box-text .text-header span:first-of-type{
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+}
+.gallery .box .box-text .text-header span:last-of-type{
+    color: #551491;
+    font-weight: bold;
+}
+.gallery .box .box-text .text-middle i{
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #551491;
+}
+.gallery .box .box-text .text-bottom a{
+    color: #fff;
+    background-color: #551491;
+    border: 1px solid #551491;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-decoration: none;
+}
+.gallery .box .box-text .text-bottom span{
+    color: #212121;
+    font-size: 17px;
+    font-weight: 500;
+}
+.gallery .box:hover .img-box img{
+    transform: scale(1.2) rotate(5deg);
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -moz-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    -o-transform: scale(1.2) rotate(5deg);
+}
+.gallery button.last-btn{
+    background-color: transparent;
+    border: 1px solid #551491;
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.gallery button.last-btn a{
+    color: #551491;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+/* start css to the footer */
+footer{
+    background-color: #2b2232;
+    margin-top: 0;
+    padding-top : 70px;
+}
+footer h2{
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    border-bottom: 1px dashed #7e7e7e;
+    padding: 15px 0px;
+}
+footer img{
+    height: 150px;
+    width: 100%;
+}
+footer .social li{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #551491;
+    border: 1px solid #551491;
+    display: inline-block;
+    margin: 5px 2px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+footer .social li a{
+    color: #fff;
+}
+footer ul{
+    margin-top: 20px;
+}
+footer ul li{
+    margin: 15px 0px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+footer ul li a{
+    color: #f6f6f6;
+}
+footer .whatsapp{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    color: #fff;
+}
+footer .whatsapp i{
+    color: #551491;
+    margin-right: 10px;
+    font-size: 27px;
+}

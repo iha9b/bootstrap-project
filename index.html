@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round7 bootstrap project</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- start the nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class='bx bx-menu'></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+                <div class="register">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">register</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- start the modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>your name</label>
+                    <input type="text">
+                    <label>emai</label>
+                    <input type="email">
+                    <button>register</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start the slider section -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/saudai1.jpg" class="d-block w-100" alt="slider">
+            </div>
+            <div class="carousel-item">
+                <img src="img/shanghai-aerial-dusk.jpg" class="d-block w-100" alt="slider2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!-- start the scroll -->
+    <div class="scroll">
+        <i class='bx bxs-chevrons-up'></i>
+    </div>
+    <!-- end the scroll -->
+
+    <!-- start the gallery section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2>our gallery</h2>
+                        <span>best products</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="img/products/properties1.png" alt="item">
+                        </div>
+                        <div class="box-text">
+                            <div class="text-header">
+                                <span>zagazig</span>
+                                <span class="price">17000$</span>
+                            </div>
+                            <div class="text-middle">
+                                <i class="bx bx-home"></i>
+                                <span>الحي الثامن</span>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#">show</a>
+                                <span>500m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button class="last-btn"><a href="#">all products</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the gallery section -->
+
+
+    <!-- start the footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h2>follow us</h2>
+                    <img src="img/logo-01.png" alt="logo">
+                    <ul class="social">
+                        <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h2>our location</h2>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">gallery</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h2>our services</h2>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">gallery</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h2>contact us</h2>
+                    <div class="whatsapp">
+                        <i class="bx bxl-whatsapp"></i>
+                        <span>+520125863333</span>
+                    </div>
+                    <div class="whatsapp">
+                        <i class="bx bxl-whatsapp"></i>
+                        <span>+520125863333</span>
+                    </div>
+                    <div class="whatsapp">
+                        <i class="bx bxl-whatsapp"></i>
+                        <span>+520125863333</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end the footer -->
+
+    
+    <!-- scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
